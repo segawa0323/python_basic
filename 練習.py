@@ -40,38 +40,3 @@ print(money)
 my_name ='ATラボ'
 # my_name を用いて、「私はATラボです」となるように変数と文字列を連結して出力してください
 print('私は' + my_name + 'です')
-
-#for文練習　リスト・辞書
-prefectures =  ['北海道', '宮城', '東京', '愛知', '大阪', '福岡', '沖縄']
-print(prefectures[0])
-print(prefectures[2])
-print(prefectures[4])
-
-print(f'3番目の都県は{prefectures[3]}です' )
-
-scores =  [72, 88, 95, 61, 79]
-print(scores[-1])
-
-book =  {
-    'title': '吾輩は猫である', 
-    'author': '夏目漱石', 
-    'year': 1905, 
-    'pages': 648
-    }
-
-print(book['title'])
-print(book['author'])
-
-print(f'{book["title"]}({book["author"]}、{book['year']}年)')
-
-product =  {
-    'name': 'ノート PC',
-    'price': 89800, 
-    'stock': 15
-    }
-
-if product['stock'] >= 10 :
-    print(f'在庫あり( {product['stock']} 個) ')
-    
-else :
-    print('頑張りましょう')
